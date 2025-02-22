@@ -10,7 +10,7 @@ def carregar_dados():
     return df 
 
 st.write("""# Busque as musicas mais tocadas na época:""")
-st.write("""## É só informar o mês e o ano!!!""")
+st.write("""## É só informar o mês e o ano!""")
 mes = st.selectbox('Mês:',['1','2','3','4','5','6','7','8','9','10','11','12'])
 ano = st.text_input('Ano:')
 busca = mes + "/" + ano
